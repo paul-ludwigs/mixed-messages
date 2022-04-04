@@ -21,8 +21,6 @@ function randomGame()
     console.log(`${name1} is picking ${handSign1}`);
     console.log(`${name2} is picking ${handSign2}`);
 
-    console.log(handSign1);
-    console.log(handSign2);
     if((handSign1 === 'rock' && handSign2 === 'scissors') || (handSign1 === 'paper' && handSign2 === 'rock') || (handSign1 === 'scissors' && handSign2=== 'paper'))
     {
         console.log(`Result: ${name1} won!`);
